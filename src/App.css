@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1,
+.App p {
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
